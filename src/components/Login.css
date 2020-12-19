@@ -1,0 +1,27 @@
+.discordLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+.discord_logo{
+    width: 300px;
+}
+.discordLogin > button{
+    background: #738ADB;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in;
+}
+.discordLogin > button:hover {
+    background: #363a3f;
+    color: white;
+}
+.discordLogin > button:active{
+    transform: scale(0.89);
+}

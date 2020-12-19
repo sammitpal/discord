@@ -1,0 +1,26 @@
+.chat{
+    display: flex;
+    background: #363a3f;
+    flex: 0.85;
+    flex-direction: column;
+    height: 100vh;
+}
+.chat_header{
+    padding: 20px;
+    color: white;
+}
+.chat_messages{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 1;
+}
+.chat_messages::-webkit-scrollbar{
+    display: none;
+}
+.back_text{
+    flex: 1;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

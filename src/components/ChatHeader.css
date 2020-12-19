@@ -1,0 +1,36 @@
+.chat_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chat_header_right{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5;
+}
+.chat_header_right > form{
+    display: flex;
+    align-items: center;
+    background: #2f3135;
+    border-radius: 5px;
+}
+.chat_header_right > form > input{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.chat_header_right > form > input:focus{
+    outline: none;
+}
+.burger{
+    display: none;
+}
+.burger > hr{
+    width: 25px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: #eee;
+}

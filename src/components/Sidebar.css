@@ -1,0 +1,79 @@
+.sidebar{
+    display: flex;
+    flex: 0.25;
+    background: #2f3135;
+    height: 100vh;
+    flex-direction: column;
+}
+.sidebar_top{
+    display: flex;
+    color: white;
+    border-bottom: 3px solid #26282c;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar_channels{
+    flex: 1;
+    padding: 20px;
+}
+.sidebar_channelsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+}
+.sidebar_header{
+    display: flex;
+    align-items: center;
+}
+.add_channel:hover{
+    color: white;
+    cursor: pointer;
+}
+.sidebar_voice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: none;
+}
+.voice_info{
+    flex: 1;
+    padding: 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.profile_details{
+    display: flex;
+    align-items: center;
+}
+.profile_id{
+    margin-left: 10px;
+    font-weight: 800;
+}
+.profile_id > .userid{
+    font-weight: 500;
+}
+.profile_icons{
+    display: flex;
+    color: gray;
+    justify-content: space-evenly;
+    width: 100px;
+}
+.sidebar_avatar{
+    cursor: pointer;
+}

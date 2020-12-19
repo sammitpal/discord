@@ -1,0 +1,21 @@
+.eachChannel{
+    color: gray;
+    padding-top: 10px;
+}
+.eachChannel>h4{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.eachChannel:hover > h4{
+    color: white;
+    background-color: gray;
+}
+.eachChannel_hash{
+    font-size: 1.5rem;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+}
